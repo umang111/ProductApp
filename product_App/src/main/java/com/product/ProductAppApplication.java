@@ -14,6 +14,7 @@ public class ProductAppApplication {
 
 	static List<Products> products=new ArrayList<>();
 	static {
+		
 		products.add(
 			new Products("Biskit", 20, "Eatable")
 		);
