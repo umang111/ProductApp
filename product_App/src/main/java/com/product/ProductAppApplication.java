@@ -42,7 +42,7 @@ public class ProductAppApplication {
 		//List of All Products
 		products.stream().forEach(product->System.out.println(product));
 
-		// sorted products in Aphabetic order
+		// sorted products in Aphabetic order .
 		List<Products> allSortedProducts=
 						products.stream().sorted(((o1, o2) ->o1.getName().compareToIgnoreCase(o2.getName()) ))
 						.collect(Collectors.toList());
